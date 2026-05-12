@@ -1,22 +1,61 @@
-# steam 雷姆
+# Steam Leimu
 
-基于 [Millennium](https://github.com/SteamClientHomebrew/Millennium) 框架的 Steam 皮肤
+[中文](README_CN.md)
 
-![preview](md.png)
+A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Millennium) framework with Material Design 3 style.
 
-## 功能
+![preview](images/md.png)
 
-- MD3 风格圆角设计
-- 深色/明亮主题切换
-- 自定义背景图片
+## Features
 
+- MD3 style rounded corners
+- Dark/Light theme switching
+- Three corner radius options (Small/Medium/Large)
+- Custom background images
+- Video background support
+- Covers all Steam UI: Library, Friends, Store, Menu, Notifications, Overlay
 
-## 安装
+## Installation
 
-1. 安装 [Millennium](https://github.com/SteamClientHomebrew/Millennium)
-2. 将皮肤文件夹放入 `steamui/skins/` 目录
-3. 在 Millennium 设置中选择皮肤
+1. Install [Millennium](https://github.com/SteamClientHomebrew/Millennium)
+2. Place the skin folder into `steamui/skins/` directory
+3. Select the skin in Millennium settings
 
-## 自定义背景
+## Custom Background
 
-通过 修改图片（main.jpg） 可实现自定义背景，背景图片推荐分辨率 1920×1080
+Use `skintool.exe` to customize background, adjust transparency (0~1) and rename the skin. Recommended background image resolution: 1920×1080
+
+## Project Structure
+
+```
+steam-leimu/
+├── css/                    # CSS files
+│   ├── dark.css           # Dark theme
+│   ├── light.css          # Light theme
+│   ├── libraryroot.custom.css
+│   ├── friends.custom.css
+│   ├── overlay.custom.css
+│   ├── notifications.custom.css
+│   ├── menu.custom.css
+│   ├── webkit.css
+│   └── radius-*.css       # Corner radius options
+├── js/                     # JavaScript files
+│   ├── libraryroot.custom.js
+│   ├── friends.custom.js
+│   └── bigpicture.custom.js
+├── images/                 # Image assets
+│   ├── main.jpg
+│   ├── friends.jpg
+│   └── md.png
+├── skin.json              # Skin configuration
+├── Install.cmd            # Installation script
+└── LICENSE                # MIT License
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **煜峰** - [yufengOvO](https://github.com/yufengOvO)
