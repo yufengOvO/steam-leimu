@@ -1,17 +1,19 @@
 {
     "name": "leimu",
-    "author": "yufeng",
-    "description": "leimu steam skin",
+    "author": "yufengOvO",
+    "description": "A modern Steam skin with dark theme and rounded corners",
 
     "github": {
         "owner": "yufengOvO",
         "repo_name": "steam-leimu"
     },
+    "header_image": "images/header.png",
+    "splash_image": "images/splash.png",
     "tags": [
         "Background",
         "Custom",
-        "MD3",
-        "Material"
+        "Dark",
+        "Rounded"
     ],
     "version": "1.2.0",
     "Steam-WebKit": "css/webkit.css",

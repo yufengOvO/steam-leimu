@@ -4,7 +4,7 @@
 
 基于 [Millennium](https://github.com/SteamClientHomebrew/Millennium) 框架的 Steam 皮肤
 
-![preview](images/md.png)
+![preview](images/header.png)
 
 ## 功能
 
@@ -46,7 +46,8 @@ steam-leimu/
 ├── images/                 # 图片资源
 │   ├── main.jpg
 │   ├── friends.jpg
-│   └── md.png
+│   ├── header.png
+│   └── splash.png
 ├── skin.json              # 皮肤配置
 └── LICENSE                # MIT 开源协议
 ```

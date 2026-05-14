@@ -4,7 +4,7 @@
 
 A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Millennium) framework with Material Design 3 style.
 
-![preview](images/md.png)
+![preview](images/header.png)
 
 ## Features
 
@@ -46,7 +46,8 @@ steam-leimu/
 ├── images/                 # Image assets
 │   ├── main.jpg
 │   ├── friends.jpg
-│   └── md.png
+│   ├── header.png
+│   └── splash.png
 ├── skin.json              # Skin configuration
 └── LICENSE                # MIT License
 ```
