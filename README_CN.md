@@ -1,6 +1,6 @@
 # Steam 雷姆
 
-[English](README.md)
+[English](./README.md) | **中文** | [日本語](./README_JA.md)
 
 基于 [Millennium](https://github.com/SteamClientHomebrew/Millennium) 框架的 Steam 皮肤
 
@@ -45,7 +45,8 @@ steam-leimu/
 ├── js/                     # JavaScript 文件
 │   ├── libraryroot.custom.js
 │   ├── friends.custom.js
-│   └── bigpicture.custom.js
+│   ├── bigpicture.custom.js
+│   └── localizer.js        # translate 文件
 ├── images/                 # 图片资源
 │   ├── main.jpg
 │   ├── friends.jpg

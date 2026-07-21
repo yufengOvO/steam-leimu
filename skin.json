@@ -19,6 +19,14 @@
     "Steam-WebKit": "css/webkit.css",
     "Patches": [
         {
+            "MatchRegexString": ".*",
+            "TargetJs": "js/localizer.js"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetJs": "js/localizer.js"
+        },
+        {
             "MatchRegexString": "^Steam$",
             "TargetCss": "css/libraryroot.custom.css",
             "TargetJs": "js/libraryroot.custom.js"

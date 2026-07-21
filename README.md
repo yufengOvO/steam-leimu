@@ -1,6 +1,6 @@
 # Steam Leimu
 
-[中文](https://github.com/yufengOvO/steam-leimu/blob/main/README_CN.md)
+**English** | [中文](./README_CN.md) | [日本語](./README_JA.md)
 
 A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Millennium) framework with Material Design 3 style.
 
@@ -45,7 +45,8 @@ steam-leimu/
 ├── js/                     # JavaScript files
 │   ├── libraryroot.custom.js
 │   ├── friends.custom.js
-│   └── bigpicture.custom.js
+│   ├── bigpicture.custom.js
+│   └── localizer.js        # translate file
 ├── images/                 # Image assets
 │   ├── main.jpg
 │   ├── friends.jpg
@@ -57,7 +58,7 @@ steam-leimu/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Author
 
